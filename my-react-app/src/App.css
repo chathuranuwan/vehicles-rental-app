@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+.home,
+.services,
+.vehicles,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url("assets/images/image-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.invalid-field {
+  border-color: #dc3545;
+  color: #dc3545;
+  background-color: #fff;
+}
+
+table div.card {
+  align-items: center;
+  border: none;
+  transition: transform 0.2s;
+}
+
+table div.card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #333;
+  z-index: 10;
+}
+
+table div.card-body {
+  text-align: center;
+}
+
+table div.card img {
+  width: 175px;
+  height: 175px;
+  margin: 30px;
+}
+
+table div.card2 {
+  width: 550px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+  align-items: center;
+  border: none;
+  transition: transform 0.2s;
+}
+
+table div.card2:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #333;
+  z-index: 10;
+}
+table div.card2-body {
+  text-align: center;
+  margin: 20px;
+}
+
+table div.card2 img {
+  width: 220px;
+  height: 220px;
+  margin: 25px;
+}
+
+.form-input-btn2 {
+  width: 75px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form-input-btn2:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgb(39, 143, 255) 0%,
+    rgb(12, 99, 250) 100%
+  );
+  transition: all 0.4s ease-out;
+}
+
+.vehiclelist-back {
+  background-color: gray;
+  width: 100%;
+  align-items: center;
+}
+.card2 {
+  width: 550px;
+  height: 300px;
+  margin: 20px;
+  background-color: white;
+  align-items: center;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card2:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #333;
+  z-index: 10;
+}
+.card2-body {
+  text-align: center;
+  margin: 20px;
+}
+
+.card2 img {
+  width: 220px;
+  height: 220px;
+  margin: 20px;
+}
+
+.form-control {
+  width: 200px;
+  height: 40px;
+  margin: 5px;
+}
+.labelandsearchbar {
+  align-self: center;
+}
+
+.order-item {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+}
+
+.Add-order {
+  height: 80px;
+}
+
+.card3 {
+  width: 900px;
+  height: 600px;
+  margin: 20px;
+  background-color: rgba(140, 141, 74, 0.945);
+  align-items: center;
+  border: none;
+  transition: transform 0.2s;
+}
+
+.card-body3 {
+  text-align: center;
+  margin: 20px;
+  width: 900px;
+  height: 900px;
+}
+
+.form-inputs2 {
+  margin-left: 10px;
+  background-color: rgb(18, 211, 76);
+  margin-bottom: 0.5rem;
+  height: 100px;
+  width: 860px;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.table-body {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.cart3-img-top {
+  width: 220px;
+  height: 150px;
+  margin: 25px;
+}
+
+.input-group {
+  margin-left: 40px;
+  margin-top: 18px;
+}
+
+.input-group.days {
+  margin-top: 0px;
+}
